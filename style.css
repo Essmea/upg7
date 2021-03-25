@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 530px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.screen {
+    width: 530px;
+    height: 240px;
+    background-image: url(Kill-Bill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.above {
+    width: 530px;
+    height: 30px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+.below {
+    width: 530px;
+    height: 40px;
+    background-color:black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+.knapp {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.knapp:hover {
+    background-color: tomato;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.692)!important;
+}
